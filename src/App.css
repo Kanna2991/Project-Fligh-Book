@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+.App-header .parent{
+  display: grid;
+  grid-gap: 15px;
+}
+.App-header .child{
+  display: flex;
+}
+.App-header .child > div{
+  width: 30px;
+  height: 50px;
+  border: 1px solid black;
+  pointer-events: none;
+  background-color: lightgray;
+  color: white;
+  display: grid;
+  place-content: center;
+}
+.App-header .child > div.available{
+  background-color: lightgreen;
+  pointer-events: all;
+  cursor: pointer;
+}
+.App-header .character {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 25px 0;
+  width: 50%;
+}
+.App-header .character div span {
+  display: inline-block;
+  padding: 8px;
+  background-color: lightgreen;
+}
+.App-header .character div span.booked, .App-header .child > div.booked {
+  background-color: red;
+}
+.App-header .character div span.yetToBook {
+  background-color: lightgray;
+}
+/* .App-header .child .window{
+  background-color: green;
+} 
+.App-header .child .center{
+  background-color: red;
+} 
+.App-header .child .aisle{
+  background-color: blue;
+} */
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

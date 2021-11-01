@@ -1,0 +1,809 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot test for four column 1`] = `
+<div
+  className="App-header"
+>
+  <div
+    className="parent"
+    style={
+      Object {
+        "gridTemplateColumns": "auto auto auto auto ",
+      }
+    }
+  >
+    <div>
+      <div
+        className="child row1"
+      >
+        <div
+          className="window "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="center "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="aisle available"
+          onClick={[Function]}
+        >
+          
+        </div>
+      </div>
+      <div
+        className="child row2"
+      >
+        <div
+          className="window "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="center "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="aisle "
+          onClick={[Function]}
+        >
+          
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        className="child row1"
+      >
+        <div
+          className="aisle "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="center "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="center "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="aisle "
+          onClick={[Function]}
+        >
+          
+        </div>
+      </div>
+      <div
+        className="child row2"
+      >
+        <div
+          className="aisle "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="center "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="center "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="aisle "
+          onClick={[Function]}
+        >
+          
+        </div>
+      </div>
+      <div
+        className="child row3"
+      >
+        <div
+          className="aisle "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="center "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="center "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="aisle "
+          onClick={[Function]}
+        >
+          
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        className="child row1"
+      >
+        <div
+          className="aisle "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="aisle "
+          onClick={[Function]}
+        >
+          
+        </div>
+      </div>
+      <div
+        className="child row2"
+      >
+        <div
+          className="aisle "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="aisle "
+          onClick={[Function]}
+        >
+          
+        </div>
+      </div>
+      <div
+        className="child row3"
+      >
+        <div
+          className="aisle "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="aisle "
+          onClick={[Function]}
+        >
+          
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        className="child row1"
+      >
+        <div
+          className="aisle "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="center "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="window "
+          onClick={[Function]}
+        >
+          
+        </div>
+      </div>
+      <div
+        className="child row2"
+      >
+        <div
+          className="aisle "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="center "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="window "
+          onClick={[Function]}
+        >
+          
+        </div>
+      </div>
+      <div
+        className="child row3"
+      >
+        <div
+          className="aisle "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="center "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="window "
+          onClick={[Function]}
+        >
+          
+        </div>
+      </div>
+      <div
+        className="child row4"
+      >
+        <div
+          className="aisle "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="center "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="window "
+          onClick={[Function]}
+        >
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="character"
+  >
+    <div>
+      <span
+        className="available"
+      />
+       Available
+    </div>
+    <div>
+      <span
+        className="booked"
+      />
+       Booked
+    </div>
+    <div>
+      <span
+        className="yetToBook"
+      />
+       Yet to Book
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snapshot test for single column 1`] = `
+<div
+  className="App-header"
+>
+  <div
+    className="parent"
+    style={
+      Object {
+        "gridTemplateColumns": "auto ",
+      }
+    }
+  >
+    <div>
+      <div
+        className="child row1"
+      >
+        <div
+          className="window available"
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="window "
+          onClick={[Function]}
+        >
+          
+        </div>
+      </div>
+      <div
+        className="child row2"
+      >
+        <div
+          className="window "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="window "
+          onClick={[Function]}
+        >
+          
+        </div>
+      </div>
+      <div
+        className="child row3"
+      >
+        <div
+          className="window "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="window "
+          onClick={[Function]}
+        >
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="character"
+  >
+    <div>
+      <span
+        className="available"
+      />
+       Available
+    </div>
+    <div>
+      <span
+        className="booked"
+      />
+       Booked
+    </div>
+    <div>
+      <span
+        className="yetToBook"
+      />
+       Yet to Book
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snapshot test for three column 1`] = `
+<div
+  className="App-header"
+>
+  <div
+    className="parent"
+    style={
+      Object {
+        "gridTemplateColumns": "auto auto auto ",
+      }
+    }
+  >
+    <div>
+      <div
+        className="child row1"
+      >
+        <div
+          className="window "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="center "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="center "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="aisle available"
+          onClick={[Function]}
+        >
+          
+        </div>
+      </div>
+      <div
+        className="child row2"
+      >
+        <div
+          className="window "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="center "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="center "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="aisle "
+          onClick={[Function]}
+        >
+          
+        </div>
+      </div>
+      <div
+        className="child row3"
+      >
+        <div
+          className="window "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="center "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="center "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="aisle "
+          onClick={[Function]}
+        >
+          
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        className="child row1"
+      >
+        <div
+          className="aisle "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="aisle "
+          onClick={[Function]}
+        >
+          
+        </div>
+      </div>
+      <div
+        className="child row2"
+      >
+        <div
+          className="aisle "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="aisle "
+          onClick={[Function]}
+        >
+          
+        </div>
+      </div>
+      <div
+        className="child row3"
+      >
+        <div
+          className="aisle "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="aisle "
+          onClick={[Function]}
+        >
+          
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        className="child row1"
+      >
+        <div
+          className="aisle "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="center "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="window "
+          onClick={[Function]}
+        >
+          
+        </div>
+      </div>
+      <div
+        className="child row2"
+      >
+        <div
+          className="aisle "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="center "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="window "
+          onClick={[Function]}
+        >
+          
+        </div>
+      </div>
+      <div
+        className="child row3"
+      >
+        <div
+          className="aisle "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="center "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="window "
+          onClick={[Function]}
+        >
+          
+        </div>
+      </div>
+      <div
+        className="child row4"
+      >
+        <div
+          className="aisle "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="center "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="window "
+          onClick={[Function]}
+        >
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="character"
+  >
+    <div>
+      <span
+        className="available"
+      />
+       Available
+    </div>
+    <div>
+      <span
+        className="booked"
+      />
+       Booked
+    </div>
+    <div>
+      <span
+        className="yetToBook"
+      />
+       Yet to Book
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snapshot test for two column 1`] = `
+<div
+  className="App-header"
+>
+  <div
+    className="parent"
+    style={
+      Object {
+        "gridTemplateColumns": "auto auto ",
+      }
+    }
+  >
+    <div>
+      <div
+        className="child row1"
+      >
+        <div
+          className="window "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="aisle available"
+          onClick={[Function]}
+        >
+          
+        </div>
+      </div>
+      <div
+        className="child row2"
+      >
+        <div
+          className="window "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="aisle "
+          onClick={[Function]}
+        >
+          
+        </div>
+      </div>
+      <div
+        className="child row3"
+      >
+        <div
+          className="window "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="aisle "
+          onClick={[Function]}
+        >
+          
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        className="child row1"
+      >
+        <div
+          className="aisle "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="center "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="center "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="window "
+          onClick={[Function]}
+        >
+          
+        </div>
+      </div>
+      <div
+        className="child row2"
+      >
+        <div
+          className="aisle "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="center "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="center "
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          className="window "
+          onClick={[Function]}
+        >
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="character"
+  >
+    <div>
+      <span
+        className="available"
+      />
+       Available
+    </div>
+    <div>
+      <span
+        className="booked"
+      />
+       Booked
+    </div>
+    <div>
+      <span
+        className="yetToBook"
+      />
+       Yet to Book
+    </div>
+  </div>
+</div>
+`;
